@@ -7,7 +7,7 @@ import command.grouppersons.AddNewPersonCommand;
 import command.grouppersons.WelcomeCommand;
 
 
-
+//
 public class CommandFactory {
     public static Command create(String command) {
         command = command.toUpperCase();
